@@ -11,7 +11,7 @@ DESCRIPTION = "U-Boot bootloader with support for milan85board."
 
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=0507cd7da8e7ad6d6701926ec9b84c95"
-COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-milan85board)"
+COMPATIBLE_MACHINE = "(mxs|mx5|mx6|mx6ul|mx7|vf|imx6q-milan85board|imx6s-milan85board)"
 
 PROVIDES += "u-boot"
 
@@ -22,7 +22,7 @@ SRCBRANCH ??= "jethro"
 SRC_URI = "git://github.com/Miian85-FedevelLinuxCourse/Milan85board-uboot.git;branch=${SRCBRANCH}"
 
 #SRCREV is the commit number, must be always changed for a new version
-SRCREV = "d23b5fa61c71ab3fa25a93a0d89927f887d1daad"
+SRCREV = "e66c100590998b59728c1d1d8584cc4ef302c7cb"
 
 S = "${WORKDIR}/git"
 

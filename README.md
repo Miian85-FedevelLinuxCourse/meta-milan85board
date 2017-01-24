@@ -48,10 +48,10 @@ Copy and paste this into your Linux host machine
     cd ~/fsl-community-bsp/
  
 ### Currently Supported machines <machine name>
-Here is a list of 'machine names' which you can use to build milan85board images. Use the 'machine name' based on the board you have:
- 
+Here is a list of 'machine names' which you can use to build milan85board images. Use the 'machine name' based on the board you have: 
  
     imx6q-milan85board
+    imx6s-milan85board
      
 ### Setup and Build Console image
     MACHINE=<machine name> source setup-environment build-milan85board
